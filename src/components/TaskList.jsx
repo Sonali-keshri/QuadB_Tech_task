@@ -14,7 +14,7 @@ const TaskList = () => {
   const dispatch = useDispatch()
   return (
     <div className='bg-zinc-900 p-6 w-full max-w-[400px] pt-0   '>
-      <h1 className='text-red-700 text-2xl text-center font-bold pb-2'>TODO LIST</h1>
+      <h1 className='text-red-700 text-2xl text-center font-bold pb-2 text-white'>TODO LIST</h1>
       <TaskInput />
       <div className='h-3/4 overflow-y-auto pr-2 pb-5'>
 
